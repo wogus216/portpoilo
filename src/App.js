@@ -7,11 +7,11 @@ import { Header, Helmet, Hidden, PortfolioList, Tab } from './component';
 import kitae from '../src/assets/images/about/kitaePhoto.jpeg';
 // 비디오
 // import video from '../src/assets/video/video.mp4';
-import video from '../src/assets/video/small.mp4';
-// import Untitled from '../src/assets/video/Untitled.webm';
-// import Untitled2 from '../src/assets/video/Untitled2.webm';
+// import video from '../src/assets/video/small.mp4';
+import video from '../src/assets/video/Untitled.webm';
+import mobileVideo from '../src/assets/video/Untitled2.webm';
 // import mobileVideo from '../src/assets/video/mobileVideo.mp4';
-import mobileVideo from '../src/assets/video/mobileSmall.mp4';
+// import mobileVideo from '../src/assets/video/mobileSmall.mp4';
 
 function App() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
